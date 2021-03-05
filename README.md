@@ -1,12 +1,12 @@
-# wc3-dota-info-api
+# WC3 DotA Info API
 
-Simple Express API server for serving Warcraft III resources hero models, textures and icons. Back end part of [wc3-dota-info](https://github.com/jp06/wc3-dota-info) web app.
+Simple Express API server for serving Warcraft III resources hero models, textures and icons. Back end part of [WC3 DotA Info](https://github.com/jp06/wc3-dota-info) web app.
 
 ## How to use
 
 1. Run `npm install` once first.
 
-2. Download this sample resource assets archive and extract the contents to the `resources` directory, this contains the data and resources for 7.00e4 and files from RoC and TFT. The only BLP files that have their WEBP counterpart are the button icons. If you need to add more resources, [refer to here](http://).
+2. Download this sample resource assets archive and extract the contents to the `resources` directory, this contains the data and resources for 7.00e4 and files from RoC and TFT. The only BLP files that have their WEBP counterpart are the button icons. If you need to add more resources, [refer to here](https://github.com/jp06/wc3-dota-info-api/tree/main/resources#readme).
 
 3. Run `npm start` to start listening to requests.
 
@@ -40,6 +40,6 @@ So what I did instead was convert them to PNG first before converting to WEBP. I
 
 ## To-do list
 
-* Combine RoC and TFT.
+* Combine RoC and TFT resources.
 * Make map version optional to prevent redundant caching of RoC/TFT resources once there are more map versions.
 * Implement something to avoid redundant map resources from across map versions (maybe using hashes or something).
