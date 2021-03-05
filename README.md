@@ -6,7 +6,7 @@ Simple Express API server for serving Warcraft III resources hero models, textur
 
 1. Run `npm install` once first.
 
-2. Download this sample resource assets archive and extract the contents to the `resources` directory, this contains the data and resources for 7.00e4 and files from RoC and TFT. The only BLP files that have their WEBP counterpart are the button icons. If you need to add more resources, [refer to here](https://github.com/jp06/wc3-dota-info-api/tree/main/resources#readme).
+2. Download this [sample resource assets](https://github.com/jp06/wc3-dota-info-api/releases/download/v1.0/resources.7z) archive and extract the contents to the `resources` directory, this contains the data and resources for 7.00e4 and files from RoC and TFT. The only BLP files that have their WEBP counterpart are the button icons. If you need to add more resources, [refer to here](https://github.com/jp06/wc3-dota-info-api/tree/main/resources#readme).
 
 3. Run `npm start` to start listening to requests.
 
