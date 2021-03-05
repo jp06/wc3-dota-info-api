@@ -1,0 +1,17 @@
+{
+  "name": "wc3-dota-info-api",
+  "version": "1.0.0",
+  "description": "Simple Express server for serving Warcraft III resources for wc3-dota-info",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}

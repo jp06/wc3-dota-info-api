@@ -1,0 +1,7 @@
+node_modules
+# resources
+# !resources/README.md
+# !resources/dota_map/.gitkeep
+# !resources/patch/.gitkeep
+# !resources/roc/.gitkeep
+# !resources/tft/.gitkeep
